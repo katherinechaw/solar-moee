@@ -1,0 +1,140 @@
+﻿@font-face{
+	font-family:"Padauk";
+	font-weight:700;
+	font-style:normal;
+	src: url('../fonts/Padauk-Bold.ttf');
+	font-display:swap;
+}
+@font-face{
+	font-family:"Padauk";
+	font-weight:400;
+	font-style:normal;
+	src: url('../fonts/Padauk-Regular.ttf');
+	font-display:swap;
+}
+
+	body {
+	background-image: url('../images/MOEElogo.png'); 
+	background-repeat:no-repeat; 
+	background-position: center;
+	background-attachment: fixed; 
+	font-family:"Padauk",Helvetica ,"Merriweather Sans",sans-serif !important;
+	/*background-color: transparent;
+    background-image: linear-gradient(180deg, #E0CE2170 0%, #FFFFFF 100%);*/
+	/*background-color: #FAF7DD;*/
+	}
+	
+	div{
+		border:0px solid black;
+	}
+	
+	fieldset.estimate {
+		border:1px solid #df382c;		
+	}
+	
+	select{
+			border: 1px solid #ccd;
+	}
+	select.clsFlat{
+		border: 0px solid #ccd;
+		background-color:transparent;
+		font-family: Helvetica  ;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+	
+	input.clsFlat{
+		border: 0px solid #bbc;
+		background-color:transparent;
+		font-family: Helvetica  ;
+	}
+	
+	.clsSubTit{
+		color: #666;
+		font-size: 16pt;
+		font-weight: bold;
+	}
+
+	.clsMainTitle{
+		color: #666;
+		font-size: 20pt;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.clsTitle{
+		color: #666;
+		font-size: 16pt;
+		font-weight: bold;
+	}
+	
+	.clsTitle2{
+		color: #666;
+		font-size: 20pt;
+		font-weight: bold;
+	}
+	
+	.clsResult{
+		color: #444;
+		font-size: 20pt;
+		font-weight: bold;
+	}
+	
+	.clsText{
+		color: #666;
+		font-size: 14pt;
+	}
+	
+	.clsTextExplanation{
+			color: #999;
+			font-size: 12pt;
+	}
+	
+	.clsTotalCost{
+		color: #990000;
+		font-size: 18pt;
+		border: 0px;
+		font-weight: bold;
+	}
+	
+	.clsMain{
+		margin: auto;
+		width: 100%;
+		float:none;
+		background-color: transparent;
+	}
+	.clsGrayImage {
+	  filter: gray; /* IE6-9 */
+	  -webkit-filter: grayscale(0.8); /* Google Chrome, Safari 6+ & Opera 15+ */
+	  filter: grayscale(0.8) ; /* Microsoft Edge and Firefox 35+ */
+	}
+	
+	/*.clsNonGrayImage {
+	  -webkit-filter: grayscale(0);
+	  filter: none;
+	}*/
+	
+	.clsIcon64 {
+		width:34px; 
+	}
+	
+	.clsMenuShowPipe {
+		border-left: 2px solid #ddd;
+		/*height: 24px;*/
+		content: " ";
+		margin-left: 7px;
+		padding-left: 20px;
+		top: 15px;
+	}
+	
+	.clsFullWidth {
+		max-width:96% !important;
+		width:96% !important;
+	}
+	
+	.about p {
+	  margin: 0;
+	  text-indent: 2rem;
+	  text-align: justify;
+	}
+	
